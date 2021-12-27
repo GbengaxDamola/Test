@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="calculator">
+      <div class="calculator-header">
+        <div class="calc-header-name">calc</div>
+        <div class="calc-header-control-theme">
+          <span>Theme</span>
+        </div>
+      </div>
+      <div class="calculator-screen">
+        <input type="text" class="calc-display-number" />
+        <input type="text" class="calc-display-number test" />
+      </div>
+      <div class="calc-control">
+        <div class="calc-control-numbers">
+          <input type="button" class="btn-control number number-7" value="7" />
+          <input type="button" class="btn-control number number-8" value="8" />
+          <input type="button" class="btn-control number number-9" value="9" />
+          <input
+            type="button"
+            class="btn-control btn-control-delete"
+            value="DEL"
+          />
+          <input type="button" class="btn-control number number-4" value="4" />
+          <input type="button" class="btn-control number number-5" value="5" />
+          <input type="button" class="btn-control number number-6" value="6" />
+          <input
+            type="button"
+            class="btn-control operator btn-control-add"
+            value="+"
+          />
+          <input type="button" class="btn-control number number-1" value="1" />
+          <input type="button" class="btn-control number number-2" value="2" />
+          <input type="button" class="btn-control number number-3" value="3" />
+          <input
+            type="button"
+            class="btn-control operator btn-control-subtract"
+            value="-"
+          />
+          <input
+            type="button"
+            class="btn-control number number.dot"
+            value="."
+          />
+          <input type="button" class="btn-control number number-0" value="0" />
+          <input
+            type="button"
+            class="btn-control operator btn-control-divide"
+            value="/"
+          />
+          <input
+            type="button"
+            class="btn-control operator btn-control-multiply"
+            value="x"
+          />
+          <input
+            type="button"
+            class="btn-control btn-control-RESET"
+            value="RESET"
+          />
+          <input
+            type="button"
+            class="btn-control operator btn-control-equality"
+            value="="
+          />
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+
+  <script src="script.js"></script>
